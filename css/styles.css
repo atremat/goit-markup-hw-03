@@ -43,6 +43,10 @@ a {
   padding-bottom: 120px;
 }
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .address {
   font-style: normal;
 }
