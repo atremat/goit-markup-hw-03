@@ -108,13 +108,14 @@ address {
 
 .header-container {
   display: flex;
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
+  /* padding-top: 25.5px;
+  padding-bottom: 25.5px; */
   border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav {
   display: flex;
+  align-items: center;
 }
 
 .header-logo {
@@ -144,6 +145,8 @@ address {
   line-height: 1.5;
   color: #2e2f42;
   letter-spacing: 0.02em; /* 0.32px/16 */
+  padding: 24px 0;
+  display: block;
 }
 
 .address {
@@ -153,6 +156,7 @@ address {
 .header-address-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .header-address-link {
@@ -177,15 +181,16 @@ address {
   /* max-height: 600px;  */
   /* padding-top: 188px;
   padding-bottom: 292px; */
+  padding: 188px 0;
 }
 
 .hero-container {
   /* padding: 188px auto 292px auto; */
   /* margin: 188px auto 292px; */
   /* padding-left: 316px; */
-  padding: 68px 316px 68px;
-  display: flex;
-  flex-direction: column;
+
+  /* display: flex;
+  flex-direction: column; */
 }
 
 .hero-title {
@@ -209,16 +214,15 @@ address {
   cursor: pointer;
   background-color: #4d5ae5;
 
+  border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
-  display: inline-flex;
+  display: block;
   padding: 16px 32px;
-  align-items: flex-start;
-  align-self: center;
 
-  max-width: 100%;
-  gap: 10px;
+  min-width: 169px;
+  height: 56px;
 }
 
 .hero-button:hover,
@@ -233,13 +237,15 @@ address {
 
 .features-list {
   display: flex;
+  gap: 24px;
 }
 
-.features-title {
-  margin-bottom: 8px;
+.features-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .features-subtitle {
+  margin-bottom: 8px;
 }
 
 .features-paragraph {
