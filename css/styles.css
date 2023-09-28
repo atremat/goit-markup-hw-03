@@ -50,8 +50,8 @@ address {
 
 .container {
   width: 1158px;
-  /* padding-left: 15px;
-  padding-right: 15px; */
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
   outline: 2px solid red;
 }
@@ -187,6 +187,10 @@ address {
 
 .features-list {
   display: flex;
+}
+
+.team-list {
+  display: flex;
   gap: 24px;
 }
 
@@ -205,6 +209,18 @@ address {
 }
 
 .team-title {
+  margin-bottom: 72px;
+}
+
+.team-image {
+  margin-bottom: 32px;
+}
+
+.team-subtitle {
+  margin-bottom: 8px;
+}
+
+.team-paragraph {
 }
 
 .portfolio-title {
@@ -221,9 +237,6 @@ address {
 .features-subtitle {
 }
 
-.team-subtitle {
-}
-
 .portfolio-subtitle {
 }
 
@@ -237,15 +250,7 @@ address {
 .features-paragraph {
 }
 
-.team-paragraph {
-}
-
 .portfolio-paragraph {
-}
-
-.team-item {
-  background-color: #ffffff;
-  text-align: center;
 }
 
 .footer-logo {
