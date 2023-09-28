@@ -48,6 +48,20 @@ address {
   font-style: normal;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .container {
   width: 1158px;
   padding-left: 15px;
@@ -182,18 +196,6 @@ address {
   background-color: #404bbf;
 }
 
-.features-container {
-}
-
-.features-list {
-  display: flex;
-}
-
-.team-list {
-  display: flex;
-  gap: 24px;
-}
-
 .standard-title {
   text-align: center;
   font-size: 36px;
@@ -204,8 +206,49 @@ address {
   text-transform: capitalize;
 }
 
+.standard-subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #2e2f42;
+  letter-spacing: 0.02em; /* 0.4px/20 */
+}
+
+.standard-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+  letter-spacing: 0.02em; /* 0.32px/16 */
+}
+
+/*! FEATURES SECTION */
+
+.features-container {
+}
+
+.features-list {
+  display: flex;
+}
+
 .features-title {
   margin-bottom: 8px;
+}
+
+.features-subtitle {
+}
+
+.features-paragraph {
+}
+
+/*! TEAM SECTION */
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
 }
 
 .team-title {
@@ -223,35 +266,18 @@ address {
 .team-paragraph {
 }
 
+/*! PORTFOLIO SECTION */
+
 .portfolio-title {
-}
-
-.standard-subtitle {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  color: #2e2f42;
-  letter-spacing: 0.02em; /* 0.4px/20 */
-}
-
-.features-subtitle {
 }
 
 .portfolio-subtitle {
 }
 
-.standard-paragraph {
-  font-size: 16px;
-  line-height: 1.5;
-  color: #434455;
-  letter-spacing: 0.02em; /* 0.32px/16 */
-}
-
-.features-paragraph {
-}
-
 .portfolio-paragraph {
 }
+
+/*! FOOTER SECTION */
 
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -276,22 +302,4 @@ address {
   line-height: 1.5; /* 24px/16 */
   letter-spacing: 0.02em; /* 0.32px/16 */
   color: #f4f4fd;
-}
-
-.team {
-  background-color: #f4f4fd;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
