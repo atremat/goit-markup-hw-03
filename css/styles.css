@@ -262,19 +262,29 @@ address {
   gap: 24px;
 }
 
+.team-item {
+  background: #fff;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-wrapper {
+  padding: 32px 0;
+}
+
 .team-title {
   margin-bottom: 72px;
 }
 
 .team-image {
-  margin-bottom: 32px;
 }
 
 .team-subtitle {
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .team-paragraph {
+  text-align: center;
 }
 
 /*! PORTFOLIO SECTION */
