@@ -42,6 +42,8 @@ button {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 address {
@@ -108,14 +110,13 @@ address {
 
 .header-container {
   display: flex;
-  /* padding-top: 25.5px;
-  padding-bottom: 25.5px; */
   border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 
 .header-logo {
@@ -136,7 +137,6 @@ address {
 .header-menu-list {
   display: flex;
   gap: 40px;
-  margin-right: 332px;
 }
 
 .header-menu-link {
@@ -178,19 +178,10 @@ address {
 
 .hero {
   background-color: #2e2f42;
-  /* max-height: 600px;  */
-  /* padding-top: 188px;
-  padding-bottom: 292px; */
   padding: 188px 0;
 }
 
 .hero-container {
-  /* padding: 188px auto 292px auto; */
-  /* margin: 188px auto 292px; */
-  /* padding-left: 316px; */
-
-  /* display: flex;
-  flex-direction: column; */
 }
 
 .hero-title {
@@ -202,6 +193,8 @@ address {
   letter-spacing: 0.02em; /* 1.12px/56 */
   max-width: 496px;
   margin-bottom: 48px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .hero-button {
@@ -223,6 +216,9 @@ address {
 
   min-width: 169px;
   height: 56px;
+
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .hero-button:hover,
@@ -330,7 +326,6 @@ address {
 }
 
 .footer-container {
-  /* padding: 100px 0; */
 }
 
 .footer-logo {
